@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A17D78816B26A9D004E9646 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A17D78716B26A9D004E9646 /* Icon.png */; };
+		3A17D78B16B26AA6004E9646 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A17D78A16B26AA6004E9646 /* Icon@2x.png */; };
+		3A349813162BEE8500172FEA /* app_btn_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A349812162BEE8500172FEA /* app_btn_back@2x.png */; };
+		3A349818162BF0BD00172FEA /* tipsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A349816162BF0BD00172FEA /* tipsVC.m */; };
+		3A349819162BF0BD00172FEA /* tipsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A349817162BF0BD00172FEA /* tipsVC.xib */; };
+		3A34981B162BF8DA00172FEA /* HSC_Wallpaper.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3A34981A162BF8DA00172FEA /* HSC_Wallpaper.pdf */; };
+		3A34981F162BF9DF00172FEA /* documentViewerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A34981D162BF9DF00172FEA /* documentViewerVC.m */; };
+		3A349820162BF9DF00172FEA /* documentViewerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A34981E162BF9DF00172FEA /* documentViewerVC.xib */; };
+		3A34982A162C014600172FEA /* NewsTrackerUserGuide.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3A349829162C014600172FEA /* NewsTrackerUserGuide.pdf */; };
+		3A34982C162C015400172FEA /* HSC_AppStore.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3A34982B162C015400172FEA /* HSC_AppStore.pdf */; };
+		3A34982E162C13AF00172FEA /* iOS6.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3A34982D162C13AF00172FEA /* iOS6.pdf */; };
+		3A349830162C15F300172FEA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A34982F162C15F300172FEA /* Default.png */; };
+		3A45D3E91627F90000E4A37F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A45D3E81627F90000E4A37F /* UIKit.framework */; };
+		3A45D3EB1627F90000E4A37F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A45D3EA1627F90000E4A37F /* Foundation.framework */; };
+		3A45D3ED1627F90000E4A37F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A45D3EC1627F90000E4A37F /* CoreGraphics.framework */; };
+		3A45D3F31627F90000E4A37F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A45D3F11627F90000E4A37F /* InfoPlist.strings */; };
+		3A45D3F51627F90000E4A37F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A45D3F41627F90000E4A37F /* main.m */; };
+		3A45D3F91627F90000E4A37F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A45D3F81627F90000E4A37F /* AppDelegate.m */; };
+		3A45D3FC1627F90000E4A37F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A45D3FB1627F90000E4A37F /* ViewController.m */; };
+		3A45D3FF1627F90000E4A37F /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A45D3FD1627F90000E4A37F /* ViewController_iPhone.xib */; };
+		3A45D4021627F90000E4A37F /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A45D4001627F90000E4A37F /* ViewController_iPad.xib */; };
+		3A45D40A1627F9F100E4A37F /* bg1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A45D4091627F9F100E4A37F /* bg1.jpg */; };
+		3A45D40C1627F9FD00E4A37F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A45D40B1627F9FD00E4A37F /* Default@2x.png */; };
+		3A45D4121627FACE00E4A37F /* harsco_logo1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3A45D4111627FACE00E4A37F /* harsco_logo1.gif */; };
+		3A45D4141627FC4100E4A37F /* green_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A45D4131627FC4100E4A37F /* green_button.png */; };
+		3A45D4181627FEA800E4A37F /* vpnwebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A45D4161627FEA800E4A37F /* vpnwebViewVC.m */; };
+		3A45D4191627FEA800E4A37F /* vpnwebViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A45D4171627FEA800E4A37F /* vpnwebViewVC.xib */; };
+		3ADF3CD116B26FCF002168CC /* VPNHD_WebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADF3CCF16B26FCF002168CC /* VPNHD_WebView.m */; };
+		3ADF3CD216B26FCF002168CC /* VPNHD_WebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3ADF3CD016B26FCF002168CC /* VPNHD_WebView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A17D78716B26A9D004E9646 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		3A17D78A16B26AA6004E9646 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		3A349812162BEE8500172FEA /* app_btn_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app_btn_back@2x.png"; sourceTree = "<group>"; };
+		3A349815162BF0BD00172FEA /* tipsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tipsVC.h; sourceTree = "<group>"; };
+		3A349816162BF0BD00172FEA /* tipsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tipsVC.m; sourceTree = "<group>"; };
+		3A349817162BF0BD00172FEA /* tipsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tipsVC.xib; sourceTree = "<group>"; };
+		3A34981A162BF8DA00172FEA /* HSC_Wallpaper.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = HSC_Wallpaper.pdf; sourceTree = "<group>"; };
+		3A34981C162BF9DF00172FEA /* documentViewerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = documentViewerVC.h; sourceTree = "<group>"; };
+		3A34981D162BF9DF00172FEA /* documentViewerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = documentViewerVC.m; sourceTree = "<group>"; };
+		3A34981E162BF9DF00172FEA /* documentViewerVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = documentViewerVC.xib; sourceTree = "<group>"; };
+		3A349829162C014600172FEA /* NewsTrackerUserGuide.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = NewsTrackerUserGuide.pdf; sourceTree = "<group>"; };
+		3A34982B162C015400172FEA /* HSC_AppStore.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = HSC_AppStore.pdf; sourceTree = "<group>"; };
+		3A34982D162C13AF00172FEA /* iOS6.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = iOS6.pdf; sourceTree = "<group>"; };
+		3A34982F162C15F300172FEA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3A45D3E41627F90000E4A37F /* VPN Launcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VPN Launcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A45D3E81627F90000E4A37F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3A45D3EA1627F90000E4A37F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3A45D3EC1627F90000E4A37F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3A45D3F01627F90000E4A37F /* VPN Launcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VPN Launcher-Info.plist"; sourceTree = "<group>"; };
+		3A45D3F21627F90000E4A37F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A45D3F41627F90000E4A37F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A45D3F61627F90000E4A37F /* VPN Launcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VPN Launcher-Prefix.pch"; sourceTree = "<group>"; };
+		3A45D3F71627F90000E4A37F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A45D3F81627F90000E4A37F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A45D3FA1627F90000E4A37F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3A45D3FB1627F90000E4A37F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3A45D3FE1627F90000E4A37F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		3A45D4011627F90000E4A37F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		3A45D4091627F9F100E4A37F /* bg1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg1.jpg; sourceTree = "<group>"; };
+		3A45D40B1627F9FD00E4A37F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3A45D4111627FACE00E4A37F /* harsco_logo1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = harsco_logo1.gif; sourceTree = "<group>"; };
+		3A45D4131627FC4100E4A37F /* green_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_button.png; sourceTree = "<group>"; };
+		3A45D4151627FEA800E4A37F /* vpnwebViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vpnwebViewVC.h; sourceTree = "<group>"; };
+		3A45D4161627FEA800E4A37F /* vpnwebViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vpnwebViewVC.m; sourceTree = "<group>"; };
+		3A45D4171627FEA800E4A37F /* vpnwebViewVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = vpnwebViewVC.xib; sourceTree = "<group>"; };
+		3ADF3CCE16B26FCF002168CC /* VPNHD_WebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPNHD_WebView.h; sourceTree = "<group>"; };
+		3ADF3CCF16B26FCF002168CC /* VPNHD_WebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPNHD_WebView.m; sourceTree = "<group>"; };
+		3ADF3CD016B26FCF002168CC /* VPNHD_WebView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VPNHD_WebView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A45D3E11627F90000E4A37F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A45D3E91627F90000E4A37F /* UIKit.framework in Frameworks */,
+				3A45D3EB1627F90000E4A37F /* Foundation.framework in Frameworks */,
+				3A45D3ED1627F90000E4A37F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A45D3D91627F90000E4A37F = {
+			isa = PBXGroup;
+			children = (
+				3A17D78A16B26AA6004E9646 /* Icon@2x.png */,
+				3A17D78716B26A9D004E9646 /* Icon.png */,
+				3A34982F162C15F300172FEA /* Default.png */,
+				3A45D3EE1627F90000E4A37F /* VPN Launcher */,
+				3A45D3E71627F90000E4A37F /* Frameworks */,
+				3A45D3E51627F90000E4A37F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A45D3E51627F90000E4A37F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A45D3E41627F90000E4A37F /* VPN Launcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A45D3E71627F90000E4A37F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A45D3E81627F90000E4A37F /* UIKit.framework */,
+				3A45D3EA1627F90000E4A37F /* Foundation.framework */,
+				3A45D3EC1627F90000E4A37F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A45D3EE1627F90000E4A37F /* VPN Launcher */ = {
+			isa = PBXGroup;
+			children = (
+				3A45D4081627F9E600E4A37F /* Images */,
+				3A45D3F71627F90000E4A37F /* AppDelegate.h */,
+				3A45D3F81627F90000E4A37F /* AppDelegate.m */,
+				3A45D3FA1627F90000E4A37F /* ViewController.h */,
+				3A45D3FB1627F90000E4A37F /* ViewController.m */,
+				3A45D3FD1627F90000E4A37F /* ViewController_iPhone.xib */,
+				3A45D4001627F90000E4A37F /* ViewController_iPad.xib */,
+				3A45D3EF1627F90000E4A37F /* Supporting Files */,
+				3A45D4151627FEA800E4A37F /* vpnwebViewVC.h */,
+				3A45D4161627FEA800E4A37F /* vpnwebViewVC.m */,
+				3A45D4171627FEA800E4A37F /* vpnwebViewVC.xib */,
+				3A349815162BF0BD00172FEA /* tipsVC.h */,
+				3A349816162BF0BD00172FEA /* tipsVC.m */,
+				3A349817162BF0BD00172FEA /* tipsVC.xib */,
+				3A34981C162BF9DF00172FEA /* documentViewerVC.h */,
+				3A34981D162BF9DF00172FEA /* documentViewerVC.m */,
+				3A34981E162BF9DF00172FEA /* documentViewerVC.xib */,
+			);
+			path = "VPN Launcher";
+			sourceTree = "<group>";
+		};
+		3A45D3EF1627F90000E4A37F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A45D3F01627F90000E4A37F /* VPN Launcher-Info.plist */,
+				3A45D3F11627F90000E4A37F /* InfoPlist.strings */,
+				3A45D3F41627F90000E4A37F /* main.m */,
+				3A45D3F61627F90000E4A37F /* VPN Launcher-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A45D4081627F9E600E4A37F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3A45D40B1627F9FD00E4A37F /* Default@2x.png */,
+				3A34981A162BF8DA00172FEA /* HSC_Wallpaper.pdf */,
+				3A349829162C014600172FEA /* NewsTrackerUserGuide.pdf */,
+				3A34982D162C13AF00172FEA /* iOS6.pdf */,
+				3A34982B162C015400172FEA /* HSC_AppStore.pdf */,
+				3A45D4131627FC4100E4A37F /* green_button.png */,
+				3A349812162BEE8500172FEA /* app_btn_back@2x.png */,
+				3A45D4111627FACE00E4A37F /* harsco_logo1.gif */,
+				3A45D4091627F9F100E4A37F /* bg1.jpg */,
+				3ADF3CCE16B26FCF002168CC /* VPNHD_WebView.h */,
+				3ADF3CCF16B26FCF002168CC /* VPNHD_WebView.m */,
+				3ADF3CD016B26FCF002168CC /* VPNHD_WebView.xib */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A45D3E31627F90000E4A37F /* VPN Launcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A45D4051627F90000E4A37F /* Build configuration list for PBXNativeTarget "VPN Launcher" */;
+			buildPhases = (
+				3A45D3E01627F90000E4A37F /* Sources */,
+				3A45D3E11627F90000E4A37F /* Frameworks */,
+				3A45D3E21627F90000E4A37F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VPN Launcher";
+			productName = "VPN Launcher";
+			productReference = 3A45D3E41627F90000E4A37F /* VPN Launcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A45D3DB1627F90000E4A37F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Mahi;
+			};
+			buildConfigurationList = 3A45D3DE1627F90000E4A37F /* Build configuration list for PBXProject "VPN Launcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3A45D3D91627F90000E4A37F;
+			productRefGroup = 3A45D3E51627F90000E4A37F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A45D3E31627F90000E4A37F /* VPN Launcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A45D3E21627F90000E4A37F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A45D3F31627F90000E4A37F /* InfoPlist.strings in Resources */,
+				3A45D3FF1627F90000E4A37F /* ViewController_iPhone.xib in Resources */,
+				3A45D4021627F90000E4A37F /* ViewController_iPad.xib in Resources */,
+				3A45D40A1627F9F100E4A37F /* bg1.jpg in Resources */,
+				3A45D40C1627F9FD00E4A37F /* Default@2x.png in Resources */,
+				3A45D4121627FACE00E4A37F /* harsco_logo1.gif in Resources */,
+				3A45D4141627FC4100E4A37F /* green_button.png in Resources */,
+				3A45D4191627FEA800E4A37F /* vpnwebViewVC.xib in Resources */,
+				3A349813162BEE8500172FEA /* app_btn_back@2x.png in Resources */,
+				3A349819162BF0BD00172FEA /* tipsVC.xib in Resources */,
+				3A34981B162BF8DA00172FEA /* HSC_Wallpaper.pdf in Resources */,
+				3A349820162BF9DF00172FEA /* documentViewerVC.xib in Resources */,
+				3A34982A162C014600172FEA /* NewsTrackerUserGuide.pdf in Resources */,
+				3A34982C162C015400172FEA /* HSC_AppStore.pdf in Resources */,
+				3A34982E162C13AF00172FEA /* iOS6.pdf in Resources */,
+				3A349830162C15F300172FEA /* Default.png in Resources */,
+				3A17D78816B26A9D004E9646 /* Icon.png in Resources */,
+				3A17D78B16B26AA6004E9646 /* Icon@2x.png in Resources */,
+				3ADF3CD216B26FCF002168CC /* VPNHD_WebView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A45D3E01627F90000E4A37F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A45D3F51627F90000E4A37F /* main.m in Sources */,
+				3A45D3F91627F90000E4A37F /* AppDelegate.m in Sources */,
+				3A45D3FC1627F90000E4A37F /* ViewController.m in Sources */,
+				3A45D4181627FEA800E4A37F /* vpnwebViewVC.m in Sources */,
+				3A349818162BF0BD00172FEA /* tipsVC.m in Sources */,
+				3A34981F162BF9DF00172FEA /* documentViewerVC.m in Sources */,
+				3ADF3CD116B26FCF002168CC /* VPNHD_WebView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A45D3F11627F90000E4A37F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A45D3F21627F90000E4A37F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3A45D3FD1627F90000E4A37F /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A45D3FE1627F90000E4A37F /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		3A45D4001627F90000E4A37F /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A45D4011627F90000E4A37F /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A45D4031627F90000E4A37F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A45D4041627F90000E4A37F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Harsco Corporation";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5D9F30C6-E837-4A4B-AB81-B12F3CCF2F20";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A45D4061627F90000E4A37F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VPN Launcher/VPN Launcher-Prefix.pch";
+				INFOPLIST_FILE = "VPN Launcher/VPN Launcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3A45D4071627F90000E4A37F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VPN Launcher/VPN Launcher-Prefix.pch";
+				INFOPLIST_FILE = "VPN Launcher/VPN Launcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A45D3DE1627F90000E4A37F /* Build configuration list for PBXProject "VPN Launcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A45D4031627F90000E4A37F /* Debug */,
+				3A45D4041627F90000E4A37F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A45D4051627F90000E4A37F /* Build configuration list for PBXNativeTarget "VPN Launcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A45D4061627F90000E4A37F /* Debug */,
+				3A45D4071627F90000E4A37F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A45D3DB1627F90000E4A37F /* Project object */;
+}
