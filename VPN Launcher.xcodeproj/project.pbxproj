@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3A17D78816B26A9D004E9646 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A17D78716B26A9D004E9646 /* Icon.png */; };
 		3A17D78B16B26AA6004E9646 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A17D78A16B26AA6004E9646 /* Icon@2x.png */; };
+		3A1BFA7016C8F93500F34F90 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A1BFA6F16C8F93500F34F90 /* Icon-72.png */; };
+		3A1BFA7316C8F93B00F34F90 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A1BFA7216C8F93B00F34F90 /* Icon-72@2x.png */; };
 		3A349813162BEE8500172FEA /* app_btn_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A349812162BEE8500172FEA /* app_btn_back@2x.png */; };
 		3A349818162BF0BD00172FEA /* tipsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A349816162BF0BD00172FEA /* tipsVC.m */; };
 		3A349819162BF0BD00172FEA /* tipsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A349817162BF0BD00172FEA /* tipsVC.xib */; };
@@ -41,6 +43,8 @@
 /* Begin PBXFileReference section */
 		3A17D78716B26A9D004E9646 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		3A17D78A16B26AA6004E9646 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		3A1BFA6F16C8F93500F34F90 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		3A1BFA7216C8F93B00F34F90 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
 		3A349812162BEE8500172FEA /* app_btn_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app_btn_back@2x.png"; sourceTree = "<group>"; };
 		3A349815162BF0BD00172FEA /* tipsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tipsVC.h; sourceTree = "<group>"; };
 		3A349816162BF0BD00172FEA /* tipsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tipsVC.m; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 		3A45D3D91627F90000E4A37F = {
 			isa = PBXGroup;
 			children = (
+				3A1BFA7216C8F93B00F34F90 /* Icon-72@2x.png */,
+				3A1BFA6F16C8F93500F34F90 /* Icon-72.png */,
 				3A17D78A16B26AA6004E9646 /* Icon@2x.png */,
 				3A17D78716B26A9D004E9646 /* Icon.png */,
 				3A34982F162C15F300172FEA /* Default.png */,
@@ -247,6 +253,8 @@
 				3A17D78816B26A9D004E9646 /* Icon.png in Resources */,
 				3A17D78B16B26AA6004E9646 /* Icon@2x.png in Resources */,
 				3ADF3CD216B26FCF002168CC /* VPNHD_WebView.xib in Resources */,
+				3A1BFA7016C8F93500F34F90 /* Icon-72.png in Resources */,
+				3A1BFA7316C8F93B00F34F90 /* Icon-72@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
