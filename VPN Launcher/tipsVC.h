@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "documentViewerVC.h"
+#import "SVWebViewController.h"
 
 @interface tipsVC : UIViewController<UITableViewDataSource,UITableViewDelegate>
 {

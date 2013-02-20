@@ -13,6 +13,7 @@
 @end
 
 @implementation ViewController
+@synthesize popupSwitch;
 
 - (void)viewDidLoad
 {
@@ -38,20 +39,36 @@
 
 -(IBAction)onLaunchVPNClicked:(id)sender
 {
-     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone)
-     {
-         vpnwebViewVC* vpnScreen = [[vpnwebViewVC alloc] init];
-         [self presentViewController:vpnScreen animated:YES completion:NULL];
-         
-         [vpnScreen release];
-     }
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone)
+    {
+        
+        if([self.popupSwitch isOn])
+        {
+            [[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"https://webconnectchl.harsco.com/extportal"]];
+        }
+        else
+        {
+            vpnwebViewVC* vpnScreen = [[vpnwebViewVC alloc] init];
+            [self presentViewController:vpnScreen animated:YES completion:NULL];
+            [vpnScreen release];
+        }
+        
+    }
     
-     else
-     {
-         VPNHD_WebView* vpnScreen = [[VPNHD_WebView alloc] init];
-         [self presentViewController:vpnScreen animated:YES completion:NULL];
-         [vpnScreen release];
-     }
+    else
+    {
+        if([self.popupSwitch isOn])
+        {
+            [[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"https://webconnectchl.harsco.com/extportal"]];
+        }
+        else
+        {
+            VPNHD_WebView* vpnScreen = [[VPNHD_WebView alloc] init];
+            [self presentViewController:vpnScreen animated:YES completion:NULL];
+            [vpnScreen release];
+            
+        }
+    }
     
 }
 

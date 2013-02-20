@@ -21,6 +21,11 @@
 		3A34982C162C015400172FEA /* HSC_AppStore.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3A34982B162C015400172FEA /* HSC_AppStore.pdf */; };
 		3A34982E162C13AF00172FEA /* iOS6.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3A34982D162C13AF00172FEA /* iOS6.pdf */; };
 		3A349830162C15F300172FEA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A34982F162C15F300172FEA /* Default.png */; };
+		3A41F02716D501F00064715A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A41F02616D501F00064715A /* MessageUI.framework */; };
+		3A41F03516D502150064715A /* SVWebViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A41F02A16D502150064715A /* SVWebViewController.strings */; };
+		3A41F03616D502150064715A /* SVModalWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A41F03016D502150064715A /* SVModalWebViewController.m */; };
+		3A41F03716D502150064715A /* SVWebViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3A41F03116D502150064715A /* SVWebViewController.bundle */; };
+		3A41F03816D502150064715A /* SVWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A41F03316D502150064715A /* SVWebViewController.m */; };
 		3A45D3E91627F90000E4A37F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A45D3E81627F90000E4A37F /* UIKit.framework */; };
 		3A45D3EB1627F90000E4A37F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A45D3EA1627F90000E4A37F /* Foundation.framework */; };
 		3A45D3ED1627F90000E4A37F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A45D3EC1627F90000E4A37F /* CoreGraphics.framework */; };
@@ -57,6 +62,17 @@
 		3A34982B162C015400172FEA /* HSC_AppStore.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = HSC_AppStore.pdf; sourceTree = "<group>"; };
 		3A34982D162C13AF00172FEA /* iOS6.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = iOS6.pdf; sourceTree = "<group>"; };
 		3A34982F162C15F300172FEA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3A41F02616D501F00064715A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		3A41F02B16D502150064715A /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
+		3A41F02C16D502150064715A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
+		3A41F02D16D502150064715A /* es-ES */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-ES"; path = "es-ES.lproj/SVWebViewController.strings"; sourceTree = "<group>"; };
+		3A41F02E16D502150064715A /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/SVWebViewController.strings; sourceTree = "<group>"; };
+		3A41F02F16D502150064715A /* SVModalWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVModalWebViewController.h; sourceTree = "<group>"; };
+		3A41F03016D502150064715A /* SVModalWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVModalWebViewController.m; sourceTree = "<group>"; };
+		3A41F03116D502150064715A /* SVWebViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVWebViewController.bundle; sourceTree = "<group>"; };
+		3A41F03216D502150064715A /* SVWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVWebViewController.h; sourceTree = "<group>"; };
+		3A41F03316D502150064715A /* SVWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVWebViewController.m; sourceTree = "<group>"; };
+		3A41F03416D502150064715A /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/SVWebViewController.strings"; sourceTree = "<group>"; };
 		3A45D3E41627F90000E4A37F /* VPN Launcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VPN Launcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A45D3E81627F90000E4A37F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3A45D3EA1627F90000E4A37F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -88,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A41F02716D501F00064715A /* MessageUI.framework in Frameworks */,
 				3A45D3E91627F90000E4A37F /* UIKit.framework in Frameworks */,
 				3A45D3EB1627F90000E4A37F /* Foundation.framework in Frameworks */,
 				3A45D3ED1627F90000E4A37F /* CoreGraphics.framework in Frameworks */,
@@ -97,9 +114,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A41F02916D502150064715A /* SVWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3A41F02A16D502150064715A /* SVWebViewController.strings */,
+				3A41F02F16D502150064715A /* SVModalWebViewController.h */,
+				3A41F03016D502150064715A /* SVModalWebViewController.m */,
+				3A41F03116D502150064715A /* SVWebViewController.bundle */,
+				3A41F03216D502150064715A /* SVWebViewController.h */,
+				3A41F03316D502150064715A /* SVWebViewController.m */,
+			);
+			path = SVWebViewController;
+			sourceTree = "<group>";
+		};
 		3A45D3D91627F90000E4A37F = {
 			isa = PBXGroup;
 			children = (
+				3A41F02916D502150064715A /* SVWebViewController */,
+				3A41F02616D501F00064715A /* MessageUI.framework */,
 				3A1BFA7216C8F93B00F34F90 /* Icon-72@2x.png */,
 				3A1BFA6F16C8F93500F34F90 /* Icon-72.png */,
 				3A17D78A16B26AA6004E9646 /* Icon@2x.png */,
@@ -218,6 +250,10 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				da,
+				"es-ES",
+				es,
+				"zh-Hant",
 			);
 			mainGroup = 3A45D3D91627F90000E4A37F;
 			productRefGroup = 3A45D3E51627F90000E4A37F /* Products */;
@@ -255,6 +291,8 @@
 				3ADF3CD216B26FCF002168CC /* VPNHD_WebView.xib in Resources */,
 				3A1BFA7016C8F93500F34F90 /* Icon-72.png in Resources */,
 				3A1BFA7316C8F93B00F34F90 /* Icon-72@2x.png in Resources */,
+				3A41F03516D502150064715A /* SVWebViewController.strings in Resources */,
+				3A41F03716D502150064715A /* SVWebViewController.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,12 +310,26 @@
 				3A349818162BF0BD00172FEA /* tipsVC.m in Sources */,
 				3A34981F162BF9DF00172FEA /* documentViewerVC.m in Sources */,
 				3ADF3CD116B26FCF002168CC /* VPNHD_WebView.m in Sources */,
+				3A41F03616D502150064715A /* SVModalWebViewController.m in Sources */,
+				3A41F03816D502150064715A /* SVWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		3A41F02A16D502150064715A /* SVWebViewController.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A41F02B16D502150064715A /* da */,
+				3A41F02C16D502150064715A /* en */,
+				3A41F02D16D502150064715A /* es-ES */,
+				3A41F02E16D502150064715A /* es */,
+				3A41F03416D502150064715A /* zh-Hant */,
+			);
+			name = SVWebViewController.strings;
+			sourceTree = "<group>";
+		};
 		3A45D3F11627F90000E4A37F /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (

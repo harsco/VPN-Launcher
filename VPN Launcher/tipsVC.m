@@ -123,8 +123,13 @@
    }
     
     
-   
+//    SVModalWebViewController *webViewController = [[SVModalWebViewController alloc] initWithURL:[NSURL fileURLWithPath:path]];
+//    [self presentViewController:webViewController animated:YES completion:nil];
+//    [webViewController release];
 
+    
+    //enhanced to fix the link in documents issue
+    
     
     documentViewerVC* detailView = [[documentViewerVC alloc] initWithURLString:path];
     

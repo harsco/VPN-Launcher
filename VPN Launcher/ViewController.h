@@ -16,11 +16,12 @@
 {
     IBOutlet UIButton* launchVPN;
     IBOutlet UIButton* launchTips;
+    IBOutlet UISwitch* popupSwitch;
 }
 
 @property(nonatomic,retain)UIButton* launchVPN;
 @property(nonatomic,retain)UIButton* launchTips;
-
+@property(nonatomic,retain)UISwitch* popupSwitch;
 
 -(IBAction)onLaunchVPNClicked:(id)sender;
 -(IBAction)onLaunchTipsClicked:(id)sender;
